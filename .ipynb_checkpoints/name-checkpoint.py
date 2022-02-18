@@ -12,7 +12,6 @@ def calculateAge(year, month, day):
     # Obtaining the number of seconds 
     total_seconds = diff.total_seconds()
     
-    # Printing the user's age
-    print("You are exactly", total_seconds, "seconds old")
-    
+    return total_seconds
+
 calculateAge(year, month, day)
